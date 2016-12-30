@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta charset="utf-8">
+	<script src="https://cdn.bootcss.com/jquery/1.12.3/jquery.min.js" type="text/javascript"></script>
+		<script src="https://cdn.rawgit.com/hzpemu/ligeruidiyCSS/master/Source/lib/ligerUI/js/core/base.js " type="text/javascript"></script>
+<script src="https://cdn.rawgit.com/hzpemu/ligeruidiyCSS/master/Source/lib/ligerUI/js/plugins/ligerDateEditoren.js" type="text/javascript"></script>
+	
+	<script src="https://cdn.rawgit.com/hzpemu/wannianok/master/wannianok.js" type="text/javascript"></script>
+	<script src="https://cdn.rawgit.com/hzpemu/wannianok/master/wannianokloadhtml.js" type="text/javascript"></script>
+
+<link rel="stylesheet"  type="text/css" href="https://cdn.rawgit.com/hzpemu/ligeruidiyCSS/master/Source/lib/ligerUI/skins/Aqua/css/ligerui-form.css">
+	
+		
+		<script language="javascript">	
+		
+			
+		$(document).ready(function(){
+			
+			$("#bereplace").html(wannianokhtmlhide);
+			
+ $("#ligerDateEditor1").ligerDateEditor({ showTime: true}); 
+	
+			
+				 $("#okc").click(function() 
+ {
+ var ti1=getoutwex($("#ligerDateEditor1").val());
+var ti1s="";
+for (i = 0; i < ti1.length; i++)
+    {
+             ti1s=ti1s+ti1[i]+" ";
+    }
+	 alert(ti1s);
+ });
+			
+}); 
+			
+	</script>
+</head> 
+	
+	<body >
+	<div style="height: 20px;font-size: small;">	
+		<input  id="ligerDateEditor1" type="text" maxlength="20">
+		<button  id="okc" type="submit"  >show</button>
+		</div>
+			<div id="bereplace"></div>
+
+
+	</body>
