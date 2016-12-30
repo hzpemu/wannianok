@@ -7,3 +7,7 @@ wannianok is a JS+HTML web Plug about Perpetual calendar . Gregorian calendar de
 具体可查看或下载范例，使用非常简单
 
 you can view or download the sample ,use is very easy.
+
+
+如果你在广东新会有好的工作介绍请给我邮件hzpemu@gmail.com. 如果介绍的工作不在广东新会但可以远程办公也可以联系我。谢谢！
+If you have good job in Guangdong Xinhui for me please email hzpemu@gmail.com. If introduced job not in Guangdong Xinhui but telecommuting can also contact me.thanks!
