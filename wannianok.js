@@ -838,8 +838,9 @@ allstr[20]=z1.indexOf(allstr[18].substr(1,1));
 allstr[21] =rtgan1+z11;
 allstr[22]=g1.indexOf(allstr[21].substr(0,1));
 allstr[23]=z1.indexOf(allstr[21].substr(1,1));
-
-
+allstr[24] = cld[d].solarTerms;//节气str
+allstr[25] = cld[d].solarFestival;//新历节日str
+allstr[26] = cld[d].lunarFestival;//农历节日str
 return allstr;
 }
 
