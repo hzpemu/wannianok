@@ -786,7 +786,7 @@ xxxx= Animals[(yyyy-4)%12]+"  "+getAstrov(mmmm,dddd)+"  "+cld[d].sYear +" 年 "+
 			+ "<span>农历" + (cld[d].isLeap?"闰 ":" ")+cld[d].lYear + " 年 "
 			+ cld[d].lMonth + " 月 " + cld[d].lDay + " 日<br />"
 			+ cld[d].cYear + "年 " + cld[d].cMonth
-			+ "月 " + cld[d].cDay + "日</span>";
+			+ "月 " + cld[d].cDay + "日</span>-----节气->"+ cld[d].solarTerms+"-----世界节日->"+ cld[d].solarFestival+"-----农历节日->"+ cld[d].lunarFestival";
 			
 	/*alert(xxxx);*/
 	
