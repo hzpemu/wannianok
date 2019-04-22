@@ -781,7 +781,7 @@ function moonxzgeti(oldday,oldhour,oldmin,sunxz)
 
 
 function getoutw(yyyy,mmmm,dddd,tttt,min)
-{
+{//note if use getMonth() for mmmm plese+1
 var xxxx;
 changesy(yyyy.toString());changesm(mmmm.toString());changeCld();
 var d=dddd-1;
