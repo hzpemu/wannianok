@@ -819,11 +819,11 @@ z11=shizhiget(tttt);
 
 var allstr = new Array();
 allstr[0] = Animals[(cld[d].lYear-4)%12];  //20190705fix  allstr[0] = Animals[(yyyy-4)%12];
-allstr[1] = a1.indexOf(allstr[0].substr(0,1));
+allstr[1] = a1.indexOf(allstr[0].substr(0,1))+1; //20190705 index+1
 allstr[2] = getAstrov(mmmm,dddd);
-allstr[3]= getAstroi(mmmm,dddd);
+allstr[3]= getAstroi(mmmm,dddd)+1; //20190705 index+1  
 allstr[4]=moonxzget(cld[d].lDay,tttt,min,allstr[2]);
-allstr[5]=moonxzgeti(cld[d].lDay,tttt,min,allstr[2]);
+allstr[5]=moonxzgeti(cld[d].lDay,tttt,min,allstr[2])+1; //20190705 index+1 
 allstr[6] = cld[d].sYear;
 allstr[7] = cld[d].sMonth;
 allstr[8] = cld[d].sDay;
