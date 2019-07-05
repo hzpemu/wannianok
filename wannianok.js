@@ -530,7 +530,7 @@ for (i=0; i< selectObj.options.length; i++)
  
     var curText=curOptObj.text;
 
-    if(nsy==curText)
+    if(parseInt(nsy)==parseInt(curText))// if(nsy==curText) 20190705fix
 	{
 
         curOptObj.selected=true;
@@ -551,7 +551,7 @@ for (i=0; i< selectObj.options.length; i++)
 
     var curText=curOptObj.text;
 
-    if(nsm==curText)
+     if(parseInt(nsm)==parseInt(curText))//if(nsm==curText) 20190705fix
 	{
 
         curOptObj.selected=true;
@@ -818,7 +818,7 @@ z11=shizhiget(tttt);
 /*alert(rtgan1+z11);*/
 
 var allstr = new Array();
-allstr[0] = Animals[(yyyy-4)%12];
+allstr[0] = Animals[(cld[d].lYear-4)%12];  //20190705fix  allstr[0] = Animals[(yyyy-4)%12];
 allstr[1] = a1.indexOf(allstr[0].substr(0,1));
 allstr[2] = getAstrov(mmmm,dddd);
 allstr[3]= getAstroi(mmmm,dddd);
